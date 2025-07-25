@@ -1,0 +1,17 @@
+{
+  "name": "pear-force-update",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bare-bundle": "^1.8.4",
+    "compact-encoding": "^2.16.1",
+    "localdrive": "^2.2.0"
+  }
+}
