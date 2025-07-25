@@ -1,8 +1,10 @@
 'use strict'
+/* global Pear */
 const path = require('path')
 const Localdrive = require('localdrive')
 const c = require('compact-encoding')
 const Bundle = require('bare-bundle')
+const { platform, arch } = require('which-runtime')
 
 const checkout = {
   preencode (state, m) {
